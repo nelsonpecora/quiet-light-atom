@@ -1,5 +1,7 @@
 # Quiet Light theme
 
-Quiet Light, now in Atom!
+One Coding's [Quiet Light](http://onecrayon.com/products/quiet-light/), now in Atom!
 
-![Screenshot](https://f.cloud.github.com/assets/69169/2289498/4c3cb0ec-a009-11e3-8dbd-077ee11741e5.gif)
+This theme was built using the [Textmate port](https://github.com/mkhl/quiet-light.tmtheme) (by Martin Kühl) and the [apm Textmate theme converter](https://atom.io/docs/v0.120.0/converting-a-text-mate-theme).
+
+![Screenshot](http://f.cl.ly/items/1g2F0P1U0I1J453L3k2B/Screen%20Shot%202014-08-10%20at%2013.15.30%20.png)
