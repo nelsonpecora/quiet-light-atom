@@ -1,0 +1,11 @@
+{
+  "name": "quiet-light-atom",
+  "theme": "syntax",
+  "version": "1.0.0",
+  "description": "Quiet Light Espresso/Textmate/Sublime theme, refactored for Atom",
+  "repository": "https://github.com/yoshokatana/quiet-light-atom",
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.50.0"
+  }
+}

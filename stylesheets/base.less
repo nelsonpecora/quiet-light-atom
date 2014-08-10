@@ -1,0 +1,245 @@
+@import "syntax-variables";
+
+.editor {
+  background-color: @syntax-background-color;
+  color: @syntax-text-color;
+}
+
+.editor .gutter {
+  background-color: @syntax-gutter-background-color;
+  color: @syntax-gutter-text-color;
+}
+
+.editor .gutter .line-number.cursor-line {
+  background-color: @syntax-gutter-background-color-selected;
+  color: @syntax-gutter-text-color-selected;
+}
+
+.editor .gutter .line-number.cursor-line-no-selection {
+  color: @syntax-gutter-text-color-selected;
+}
+
+.editor .wrap-guide {
+  color: @syntax-wrap-guide-color;
+}
+
+.editor .indent-guide {
+  color: @syntax-indent-guide-color;
+}
+
+.editor .invisible-character {
+  color: @syntax-invisible-character-color;
+}
+
+.editor .search-results .marker .region {
+  background-color: transparent;
+  border: @syntax-result-marker-color;
+}
+
+.editor .search-results .marker.current-result .region {
+  border: @syntax-result-marker-color-selected;
+}
+
+.editor.is-focused .cursor {
+  border-color: @syntax-cursor-color;
+}
+
+.editor.is-focused .selection .region {
+  background-color: @syntax-selection-color;
+}
+
+.editor.is-focused .line-number.cursor-line-no-selection, .editor.is-focused .line.cursor-line {
+  background-color: #E4F6D4;
+}
+
+.comment, .punctuation.definition.comment {
+  font-style: italic;
+  color: #AAAAAA;
+}
+
+.comment.block.preprocessor {
+  color: #AAAAAA;
+}
+
+.comment.documentation, .comment.block.documentation {
+  color: #448C27;
+}
+
+.invalid.deprecated {
+  background-color: rgba(150, 0, 0, 0.08);
+}
+
+.invalid.illegal {
+  color: #660000;
+  background-color: rgba(150, 0, 0, 0.08);
+}
+
+.keyword.operator {
+  color: #777777;
+}
+
+.keyword, .storage {
+  color: #4B83CD;
+}
+
+.storage.type, .support.type {
+  color: #7A3E9D;
+}
+
+.constant.language, .support.constant, .variable.language {
+  color: #AB6526;
+}
+
+.variable, .support.variable {
+  color: #7A3E9D;
+}
+
+.entity.name.function, .support.function {
+  font-weight: bold;
+  color: #AA3731;
+}
+
+.entity.name.type, .entity.other.inherited-class, .support.class {
+  font-weight: bold;
+  color: #7A3E9D;
+}
+
+.entity.name.exception {
+  color: #660000;
+}
+
+.entity.name.section {
+  font-weight: bold;
+}
+
+.constant.numeric, .constant.character, .constant {
+  color: #AB6526;
+}
+
+.string {
+  color: #448C27;
+}
+
+.constant.character.escape {
+  color: #777777;
+}
+
+.string.regexp {
+  color: #4B83CD;
+}
+
+.constant.other.symbol {
+  color: #AB6526;
+}
+
+.punctuation {
+  color: #777777;
+}
+
+.string .source, .text .source {
+  background-color: #EAEBE6;
+}
+
+.meta.tag.sgml.doctype, .meta.tag.sgml.doctype .string, .meta.tag.sgml.doctype .entity.name.tag, .meta.tag.sgml .punctuation.definition.tag.html {
+  color: #AAAAAA;
+}
+
+.meta.tag, .punctuation.definition.tag.html, .punctuation.definition.tag.begin.html, .punctuation.definition.tag.end.html {
+  color: #91B3E0;
+}
+
+.entity.name.tag {
+  color: #4B83CD;
+}
+
+.meta.tag .entity.other.attribute-name, .entity.other.attribute-name.html {
+  font-style: italic;
+  color: #91B3E0;
+}
+
+.constant.character.entity, .punctuation.definition.entity {
+  color: #AB6526;
+}
+
+.meta.selector, .meta.selector .entity, .meta.selector .entity .punctuation, .entity.name.tag.css {
+  color: #7A3E9D;
+}
+
+.meta.property-name, .support.type.property-name {
+  color: #AB6526;
+}
+
+.meta.property-value, .meta.property-value .constant.other, .support.constant.property-value {
+  color: #448C27;
+}
+
+.keyword.other.important {
+  font-weight: bold;
+}
+
+.markup.changed {
+  color: #000000;
+  background-color: #FFFFDD;
+}
+
+.markup.deleted {
+  color: #000000;
+  background-color: #FFDDDD;
+}
+
+.markup.italic {
+  font-style: italic;
+}
+
+.markup.error {
+  color: #660000;
+  background-color: rgba(150, 0, 0, 0.08);
+}
+
+.markup.inserted {
+  color: #000000;
+  background-color: #DDFFDD;
+}
+
+.meta.link {
+  color: #4B83CD;
+}
+
+.markup.output, .markup.raw {
+  color: #777777;
+}
+
+.markup.prompt {
+  color: #777777;
+}
+
+.markup.heading {
+  font-weight: bold;
+}
+
+.markup.bold {
+  font-weight: bold;
+}
+
+.markup.traceback {
+  color: #660000;
+}
+
+.markup.underline {
+  text-decoration: underline;
+}
+
+.meta.diff.range, .meta.diff.index, .meta.separator {
+  color: #434343;
+  background-color: #DDDDFF;
+}
+
+.meta.diff.header.from-file {
+  color: #434343;
+  background-color: #FFDDDD;
+}
+
+.meta.diff.header.to-file {
+  color: #434343;
+  background-color: #DDFFDD;
+}
